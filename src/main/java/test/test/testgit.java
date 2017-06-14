@@ -34,7 +34,7 @@ public class testgit
 		driver.findElement(By.xpath("/html/body/section/div/div/div/form/div[3]/button")).click();
 		Thread.sleep(5000);
 		System.out.println("Clicked on Loginbutton");
-	    assertEquals("Uma",driver.findElement(By.xpath("/html/body/header/nav/div/ul/li/a/span/span")).getText());
+	    assertEquals("uma",driver.findElement(By.xpath("/html/body/header/nav/div/ul/li/a/span/span")).getText());
 	    System.out.println("Logined as Uma Tester role");
 	    
 	}
