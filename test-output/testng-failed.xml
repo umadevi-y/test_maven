@@ -6,6 +6,7 @@
       <class name="test.test.testgit">
         <methods>
           <include name="test"/>
+          <include name="teardown"/>
           <include name="browserlaunch"/>
         </methods>
       </class> <!-- test.test.testgit -->
